@@ -205,6 +205,7 @@ p {
 	background-position: top center;
 	position: relative;
 	z-index: 1;
+	width: 100vw;
 }
 #hero::after {
 	content: '';
@@ -291,7 +292,7 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url();
+	background-image: url(#);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
@@ -497,6 +498,7 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
 #footer .footer {
+	width: 100vw;
 	min-height: 200px;
 	flex-direction: column;
 	padding-top: 50px;
